@@ -1,0 +1,96 @@
+Object Oriented Programming - 5th November,2024
+
+A) Objects Introductions
+
+Object--> abstraction, concept, or thing with crisp boundaries
+Has meaning for the problem at hand
+
+Characteristics
+  >Identify
+  >Classification
+  >State through attributes
+  >Behaviour
+
+Identity
+  >Objects have Unique identity
+  >Objs are inheretly distinguishable
+
+Class 
+  A set of similar objects
+  -Obj is instance of class
+  -Share behaviour and possibly some state
+
+State are attributes = data properties
+  Example Car 
+      Engine num / chasis num
+
+Objects have 
+1. Roles
+2. Incidents
+3. Tangible Things
+4. Interactions
+
+-------------------------------------------------------------------
+B) Object Hierarchy
+Relationship Module 
+  1) (Is a) relationship  -- bottom up approach
+  2) (Has a) relationship -- top down approach 
+
+
+Composition - one cannot exist without other
+Aggregation - dependent but can exist in absence of other
+Association - independently exists in absence of other
+
+-----------------------------------------------------------------------------------------------
+
+Jshell - Interactive Shell
+
+to come out of the drive : Ctrl+D
+-----------------------------------------------------------------------------------------------
+
+Monolith App
+
+
+Interface 
+-interface of the class
+-contract between 2 entities
+-Interface consists of only the methods not their implementation 
+and whatever class implements that interface should have all that basic methods included in the interface
+
+-------------------------------------------------------------------------------------------------
+
+1) Interface --> No Implememtation
+2) Abstract class --> Partial Implementation
+3) Class --> Fully Implementation
+Concrete class --> It has new key word 
+
+
+
+
+-----------------------------------------------------------------------
+Recap of Vehicle Project
+
+1) Downloaded the src code in zip
+2) Extracted the zip file in a folder
+3) Open Eclipse
+4) File - Open - Existing Project
+5) Selected Vehicle Project - Directory
+6) Vehicle--> Interface contract package
+7) Two wheeler --> Abstract_Class package
+8) MotorBike --> Concrete_class package
+  Bicycle  --> Concrete_class package
+9) Moved all classes and interface into their respective packages
+10) added toString() to motorbike and understood that toString is coming from Object Class
+11) 
+
+
+
+
+
+
+
+
+
+
+
+
